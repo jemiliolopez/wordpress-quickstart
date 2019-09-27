@@ -5,4 +5,6 @@
 # used as a S2I builder, this script is bypassed and custom script will
 # be executed directly.
 
+echo "variable PARAENASMLBE= $PARARUN" > /opt/app-root/s2i/variablerun.txt
+
 exec /opt/app-root/s2i/run
