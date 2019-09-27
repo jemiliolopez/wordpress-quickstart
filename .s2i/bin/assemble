@@ -41,7 +41,7 @@ fi
 # metadata file which overrides the labels of the base image.
 
 mkdir -p /opt/app-root/s2i
-
+echo "variable PARAENASMLBE= $PARAASSEMBLE" > /opt/app-root/s2i/variableassemble.txt
 mv /tmp/src/builder/assemble /opt/app-root/s2i/assemble
 mv /tmp/src/builder/run /opt/app-root/s2i/run
 mv /tmp/src/builder/save-artifacts /opt/app-root/s2i/save-artifacts

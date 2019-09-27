@@ -35,6 +35,8 @@ secret() {
     python -c 'import random; import string; print("".join([random.SystemRandom().choice(string.ascii_letters+string.digits) for i in range(50)]))'
 }
 
+echo "variable PARAENASMLBE= $PARARUN" > /opt/app-root/s2i/variablerun.txt
+
 if [ ! -f wp-config.php ]; then
     TMPCONFIG=/tmp/wp-config-temp.php
     cp wp-config-sample.php $TMPCONFIG
