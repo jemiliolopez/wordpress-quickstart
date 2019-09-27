@@ -1,5 +1,5 @@
-MYSQL_USER=master
+MYSQL_USER="master"
 MYSQL_DATABASE="devnelydb"
-MYSQL_PASSWORD=passdb
+MYSQL_PASSWORD="passdb"
 MYSQL_HOST="localhost"
 MYSQL_TABLE_PREFIX="wp_"
